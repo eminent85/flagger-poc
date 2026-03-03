@@ -25,5 +25,3 @@ credentials/
 *.tfstate.backup
 .terraform/
 
-# Flux (generated during bootstrap)
-clusters/**/flux-system/gotk-*.yaml

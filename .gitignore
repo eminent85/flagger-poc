@@ -1,0 +1,29 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Secrets (just in case)
+*.key
+*.pem
+secrets/
+credentials/
+
+# Terraform (if added later)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Flux (generated during bootstrap)
+clusters/**/flux-system/gotk-*.yaml
